@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.css">
+    <title>
+        APPLICATION FORM
+    </title>
+</head>
+
+<body style="background-color: aliceblue;">
+    <!-- HEADING -->
+    <div>
+        <h1 style='font-size: 3rem;' align="center">
+            Application Form
+        </h1>
+    </div>
+    <!-- FORM -->
+    <div style="background-color: lightblue;">
+
+        <!-- Section A -->
+        
+        <div style="background-color: cornflowerblue;">
+            <h2 class="subheading">
+                A. General Questions
+            </h2>
+        </div>
+        <form action="">
+
+        <div class="pad">
+            <label for="name">
+                Proposed Insured's Name:
+            </label>
+            <input type="text" id="name1" size=150%><br>
+            <label>
+                <sup>(Please use capital letters only)</sup>
+            </label>
+            <input type="text" id="name2" size=150%>
+        </div>
+
+        <div class="a-form">
+            <div class="box">
+                <label for="bdate">
+                    Birth Date:
+                </label>
+                <input type="date" id="bdate">
+            </div>
+
+            <div class="box">
+                <label for="gender">
+                    Gender:
+                </label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">
+                    Male
+                </label>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">
+                    Female
+                </label>
+            </div>
+
+        </div>
+        <div class="pad">
+            <label for="address">
+                Address:
+            </label>
+            <input type="text" class="text-line" size="164%" name="address" id="address">
+        </div>
+
+        <div class="a-form">
+            <div class="box">
+                <label for="phone">
+                    Phone number:
+                </label>
+                <input type="number" class="text-line" id="phone">
+            </div>
+            <div class="box">
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" class="text-line" size="55%" name="email" id="email">
+            </div>
+        </div>
+
+        <div class="a-form">
+            <div class="box">
+                <label for="id">
+                    ID number:
+                </label>
+                <input type="number" class="text-line" name="ID Number" id="id">
+            </div>
+            <div class="box">
+                <label for="ssn">
+                    Social Security Number:
+                </label>
+                <input type="number" class="text-line" name="SSN" id="ssn">
+            </div>
+        </div>
+
+        <div class="pad">
+            <label for="status">
+                Status:
+            </label>
+            <input type="radio" class="status" name="status" id="single" value="single">
+            <label for="single">
+                Single
+            </label>
+            <input type="radio" class="status" name="status" id="married" value="married">
+            <label for="married">
+                Married
+            </label>
+            <input type="radio" class="status" name="status" id="divorced" value="divorced">
+            <label for="divorced">
+                Divorced
+            </label>
+            <input type="radio" class="status" name="status" id="other" value="other">
+            <label for="other">
+                Other
+            </label>
+        </div>
+
+        <div class="a-form">
+            <div class="box">
+                <label for="occupation">
+                    Occupation:
+                </label>
+                <input type="text" class="text-line" size="50%" name="Occupation" id="occupation">
+            </div>
+            <div class="box">
+                <label for="retiree">
+                    Are you a retiree?
+                </label>
+                <input type="radio" class="retiree" name="retiree" id="Yes" value="Yes">
+                <label for="Yes">
+                    Yes
+                </label>
+                <input type="radio" class="retiree" name="retiree" id="No" value="No">
+                <label for="No">
+                    No
+                </label>
+            </div>
+        </div>
+        </form>
+        
+
+        <!-- Section B -->
+        
+        <div style="background-color: cornflowerblue;">
+            <h2 class="subheading">
+                B. Type of Health Coverage
+            </h2>
+        </div>
+        <form action=""></form>
+        <br>
+        <div class="b-form">
+            <div class="b-box">
+                <div class="pad">
+                    <label for="employee">
+                        Employee:
+                        <input type="radio" name="employee" id="Employee-yes">
+                        <label for="Employee-yes">
+                            Yes
+                        </label>
+                        <input type="radio" name="employee" id="Employee-no">
+                        <label for="Employee-no">
+                            No
+                        </label>
+                    </label>
+                </div>
+
+                <div class="pad">
+                    <label for="planchoice-employee">
+                        Plan Choice:
+                    </label>
+                    <input type="text" class="text-line" name="planchoice-employee" id="planchoice-employee">
+                </div>
+            </div>
+
+            <div class="b-box">
+                <div class="pad">
+                    <label for="Spouse">
+                        Spouse:
+                        <input type="radio" name="Spouse" id="Spouse-yes">
+                        <label for="Spouse-yes">
+                            Yes
+                        </label>
+                        <input type="radio" name="Spouse" id="Spouse-no">
+                        <label for="Spouse-no">
+                            No
+                        </label>
+                    </label>
+                </div>
+
+                <div class="pad"> <label for="planchoice-employee">Plan Choice: </label>
+                    <input type="text" class="text-line" name="planchoice-employee" id="planchoice-employee">
+                </div>
+            </div>
+
+            <div class="b-box">
+                <div class="pad">
+                    <label for="Children">
+                        Children:
+                        <input type="radio" name="Children" id="Children-yes">
+                        <label for="Children-yes">
+                            Yes
+                        </label>
+                        <input type="radio" name="Children" id="Children-no">
+                        <label for="Children-no">
+                            No
+                        </label>
+                    </label>
+                </div>
+
+                <div class="pad"> <label for="planchoice-employee">Plan Choice: </label>
+                    <input type="text" class="text-line" name="planchoice-employee" id="planchoice-employee">
+                </div>
+            </div>
+        </div>
+        <p class = "pad">Complete if Spouse/Children are proposed for insurance</p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>SSN No.</th>
+                <th>Relationship to proposed insured</th>
+                <th>Birth Date</th>
+                <th>Age</th>
+                <th>Sex</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+
+        </table>
+        </form>
+
+        <!-- Section C -->
+
+        <div style="background-color: cornflowerblue;">
+            <h2 class="subheading">
+                C. The Policy
+            </h2>
+        </div>
+        <form action="">
+            <div class="a-form">
+                <div class="box">
+                    <label for="units">
+                        Units:
+                    </label>
+                    <input type="text"  class="text-line" size="75%" id="units">
+                </div>
+
+                <div class="box">
+                <label for="Annual Premium">
+                    Annual Premium
+                </label>
+                <input type="text" class="text-line" size="75%" name="Annual Premium" id="Annual Premium">
+                </div>
+            </div>
+
+                <div class="pad">
+                    <label for="payment-mode">
+                        Payment Mode:
+                        <input type="radio" class="payment-mode" name="payment-mode" id="payment-annual" value="payment-annual">
+                        <label for="payment-annual">
+                            Annual
+                        </label>
+                        <input type="radio" class="payment-mode" name="payment-mode" id="semi-annual" value="semi-annual">
+                        <label for="semi-annual">
+                            Semi Annual
+                        </label>
+                        <input type="radio" class="payment-mode" name="payment-mode" id="monthly" value="monthly">
+                        <label for="monthly">
+                            Monthly PAT (complete PAT Card) 
+                        </label>
+                    </label>
+                </div>
+
+
+                <div class="pad">
+                    <label for="cash">Cash with Application: $</label>
+                    <input type="text" class="text-line" size="100%" name="cash" id="cash">
+                </div>
+
+                <div class="pad">
+                    <label for="planned-medical">Planned Medical Premium: $</label>
+                    <input type="text" class="text-line" size="100%" name="planned-medical" id="planned-medical">
+                </div>
+
+                <div class="a-form">
+                    <div class="box">
+                        <p style="color: blue;"> <strong>Terms & Conditions:</strong> <br>Improvement should be made regularly and assessed
+                            in order for you to know whats beneficial and what is not. This will help you set new
+                            targets. </p>
+                    </div>
+
+                    <div class="box">
+                        <div class="pad">
+                            <label for="sign">Signature: </label>
+                            <input type="text" class="text-line" name="sign" id="sign">
+                        </div>
+                        <div class="pad">
+                            <label for="date">Date: </label>
+                            <input type="date"  name="date" id="date">
+                        </div>
+                    </div>
+
+                </div>
+        </form>
+    </div>
+</body>
+</html>
